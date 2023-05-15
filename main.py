@@ -48,7 +48,7 @@ def unstable(x): return( (x/10)**3 + np.sin(5*x))# Kmitající funkce
 # plt.axhline(y=0, color='r')
 # plt.axvline(x=0, color='g')
 
-## Parabolická funkce print
+## kvadratická funkce print
 # plt.figure(2) 
 # plt.plot(values_for_parabola,parabola(values_for_parabola))
 # plt.axhline(y=0, color='r')  
@@ -72,6 +72,17 @@ def unstable(x): return( (x/10)**3 + np.sin(5*x))# Kmitající funkce
 # plt.axhline(y=0, color='r')  
 # plt.axvline(x=0, color='g')
 
+#def fce_s_rychlym_prechodem(x):
+#    if x < -1:
+#        return -5
+#    elif x > 1:
+#        return 5
+#    else:
+#       return 5*np.sin(1.5*x)
+#def exponencialni_funkce(x):
+#    return(math.exp(x))
+#def fce_konstantni(x):
+#    return 1
 ## Displaying the plot
 # plt.show()
 
